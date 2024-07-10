@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Jomolhari&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Jomolhari&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Jomolhari&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background: linear-gradient(0deg, rgba(28,28,28,1) 70%, rgba(28, 28, 28, 0.877) 90%, rgba(28,28,28,0.7576565782563025) 95%, rgba(28,28,28,0.24505153623949583) 100%), url('img/bg-gradient-3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.main-top{
+    width: 90%;
+    width: 790px;
+    margin: 0 auto ;
+}
+.wrap-title{
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    margin: 30px auto 40px;
+}
+
+#title{
+    color: #B4923D;
+    font-family: 'JomolHari';
+    font-weight: normal;
+    line-height : 60px
+}
+#title .large-title{
+    font-size: 5.7rem;
+    text-shadow: 0 3px 3px rgba(0, 0, 0, 0.567);
+}
+#title .medium-title{
+    font-size: 2.5rem;
+    text-shadow: 0 2px 3px rgba(0, 0, 0, 0.825);
+}
+
+#img-div{
+    margin-left: 80px;
+}
+#img-div img{
+    width: 50%;
+    float: left;
+    margin-right: 30px;
+}
+#img-div p{
+    color: #bababa;
+    font-size: 14.4px;
+    font-family: 'inter';
+    margin-right: 80px;
+}
+#img-div figcaption{
+    font-family: 'inter';
+    font-size: 12px;
+    color: #bababa6c;
+    font-style: italic;
+}
+
+.line{
+    border: 1px solid #b4923d8b;
+    margin: 20px auto;
+}
+
+.biografi{
+    font-family: 'Josefin Sans';
+    color: white;
+    margin-top: 100px;
+    font-size: 2.5rem;
+    font-weight: normal;
+}
+
+.biografi-text{
+    margin-left: 90px;
+    margin-right: 80px;
+    color: #bababa;
+    font-family: 'inter';
+}
+
+.bold{
+    font-weight: 700;
+}
+
+.galeri{
+    font-family: 'Josefin Sans';
+    color: white;
+    margin: 50px auto ;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: normal;
+}
+
+#main-img{
+    height: 400px;
+    margin: 0 auto ;
+    background-color: #c4c4c4;
+}
+
+
+#main-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.wrap-img {
+    display: flex;
+    gap: 30px;
+}
+
+.wrap-img img {
+    width: 100%;
+    height: 300px;
+    object-fit: contain;
+    border: 10px solid white;
+    filter: grayscale();
+}
+
+#tribute-link{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #bababa;
+    text-align: center;
+    margin: 20px auto;
+    font-weight: normal;
+}
+
+#tribute-link a{
+    text-decoration: none;
+    color: #98e0ff;
+}
